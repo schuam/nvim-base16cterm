@@ -31,12 +31,10 @@ local hi = function(args)
     local guifg = args.guifg
     local guibg = args.guibg
     local gui = args.gui
-    local guisp = args.guisp
     local cmd = {'hi', hlgroup}
     if guifg then table.insert(cmd, 'guifg=' .. guifg) end
     if guibg then table.insert(cmd, 'guibg=' .. guibg) end
     if gui then table.insert(cmd, 'gui=' .. gui) end
-    if guisp then table.insert(cmd, 'guisp=' .. guisp) end
     vim.cmd(table.concat(cmd, ' '))
 end
 

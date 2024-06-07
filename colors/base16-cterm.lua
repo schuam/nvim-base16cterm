@@ -43,7 +43,7 @@ local setup = function(collections)
     -- Setting highlighting and syntax
     vim.cmd('highlight clear')
     vim.cmd('syntax reset')
-    vim.g.colors_name = "base16-3024"
+    vim.g.colors_name = "base16-cterm"
 
     -- Loop through highlighting collections
     for _, collection in pairs(collections) do

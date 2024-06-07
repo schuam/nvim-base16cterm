@@ -1,6 +1,5 @@
 -- bradcush/base16-nvim (https://github.com/bradcush/base16-nvim)
 -- by Bradley Cushing (https://github.com/bradcush)
--- 3024 scheme by Jan T. Sott (http://github.com/idleberg)
 -- Based on existing work with references below
 -- base16-vim (https://github.com/chriskempson/base16-vim)
 -- by Chris Kempson (http://chriskempson.com)

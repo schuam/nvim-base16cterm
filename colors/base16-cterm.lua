@@ -7,22 +7,22 @@
 -- by Adam P. Regasz-Rethy (https://github.com/RRethy)
 -- Base16 color variables
 local colors = {
-    base00 = "#090300",
-    base01 = "#3a3432",
-    base02 = "#4a4543",
-    base03 = "#5c5855",
-    base04 = "#807d7c",
-    base05 = "#a5a2a2",
-    base06 = "#d6d5d4",
-    base07 = "#f7f7f7",
-    base08 = "#db2d20",
-    base09 = "#e8bbd0",
-    base0A = "#fded02",
-    base0B = "#01a252",
-    base0C = "#b5e4f4",
-    base0D = "#01a0e4",
-    base0E = "#a16a94",
-    base0F = "#cdab53"
+    base00 = "000",
+    base01 = "018",
+    base02 = "019",
+    base03 = "008",
+    base04 = "020",
+    base05 = "007",
+    base06 = "021",
+    base07 = "015",
+    base08 = "001",
+    base09 = "016",
+    base0A = "003",
+    base0B = "002",
+    base0C = "006",
+    base0D = "004",
+    base0E = "005",
+    base0F = "007"
 }
 
 -- Highlighting for indiividual groups

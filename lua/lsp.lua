@@ -2,17 +2,17 @@
 local make = function(c)
     return {
         -- LuaFormatter off
-        {hlgroup = 'LspReferenceText', guifg = nil, guibg = nil, gui = 'underline', guisp = c.base04},
-        {hlgroup = 'LspReferenceRead', guifg = nil, guibg = nil, gui = 'underline', guisp = c.base04},
-        {hlgroup = 'LspReferenceWrite', guifg = nil, guibg = nil, gui = 'underline', guisp = c.base04},
-        {hlgroup = 'LspDiagnosticsDefaultError', guifg = c.base0F, guibg = nil, gui = 'none'},
-        {hlgroup = 'LspDiagnosticsDefaultWarning', guifg = c.base0A, guibg = nil, gui = 'none'},
-        {hlgroup = 'LspDiagnosticsDefaultInformation', guifg = c.base0D, guibg = nil, gui = 'none'},
-        {hlgroup = 'LspDiagnosticsDefaultHint', guifg = c.base05, guibg = nil, gui = 'none'},
-        {hlgroup = 'LspDiagnosticsUnderlineError', guifg = nil, guibg = nil, gui = 'undercurl', guisp = c.base08},
-        {hlgroup = 'LspDiagnosticsUnderlineWarning', guifg = nil, guibg = nil, gui = 'undercurl', guisp = c.base0A},
-        {hlgroup = 'LspDiagnosticsUnderlineInformation', guifg = nil, guibg = nil, gui = 'undercurl', guisp = c.base0D},
-        {hlgroup = 'LspDiagnosticsUnderlineHint', guifg = nil, guibg = nil, gui = 'undercurl', guisp = c.base05}
+        {hlgroup = 'LspReferenceText', ctermfg = nil, ctermbg = nil, cterm = 'underline', ctermsp = c.base04},
+        {hlgroup = 'LspReferenceRead', ctermfg = nil, ctermbg = nil, cterm = 'underline', ctermsp = c.base04},
+        {hlgroup = 'LspReferenceWrite', ctermfg = nil, ctermbg = nil, cterm = 'underline', ctermsp = c.base04},
+        {hlgroup = 'LspDiagnosticsDefaultError', ctermfg = c.base0F, ctermbg = nil, cterm = 'none'},
+        {hlgroup = 'LspDiagnosticsDefaultWarning', ctermfg = c.base0A, ctermbg = nil, cterm = 'none'},
+        {hlgroup = 'LspDiagnosticsDefaultInformation', ctermfg = c.base0D, ctermbg = nil, cterm = 'none'},
+        {hlgroup = 'LspDiagnosticsDefaultHint', ctermfg = c.base05, ctermbg = nil, cterm = 'none'},
+        {hlgroup = 'LspDiagnosticsUnderlineError', ctermfg = nil, ctermbg = nil, cterm = 'undercurl', ctermsp = c.base08},
+        {hlgroup = 'LspDiagnosticsUnderlineWarning', ctermfg = nil, ctermbg = nil, cterm = 'undercurl', ctermsp = c.base0A},
+        {hlgroup = 'LspDiagnosticsUnderlineInformation', ctermfg = nil, ctermbg = nil, cterm = 'undercurl', ctermsp = c.base0D},
+        {hlgroup = 'LspDiagnosticsUnderlineHint', ctermfg = nil, ctermbg = nil, cterm = 'undercurl', ctermsp = c.base05}
         -- LuaFormatter on
     }
 end

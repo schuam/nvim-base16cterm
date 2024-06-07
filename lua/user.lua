@@ -2,15 +2,15 @@
 local make = function(c)
     return {
         -- LuaFormatter off
-        {hlgroup = 'User1', guifg = c.base08, guibg = c.base02, gui = 'none'},
-        {hlgroup = 'User2', guifg = c.base0E, guibg = c.base02, gui = 'none'},
-        {hlgroup = 'User3', guifg = c.base05, guibg = c.base02, gui = 'none'},
-        {hlgroup = 'User4', guifg = c.base0C, guibg = c.base02, gui = 'none'},
-        {hlgroup = 'User5', guifg = c.base01, guibg = c.base02, gui = 'none'},
-        {hlgroup = 'User6', guifg = c.base05, guibg = c.base02, gui = 'none'},
-        {hlgroup = 'User7', guifg = c.base05, guibg = c.base02, gui = 'none'},
-        {hlgroup = 'User8', guifg = c.base00, guibg = c.base02, gui = 'none'},
-        {hlgroup = 'User9', guifg = c.base00, guibg = c.base02, gui = 'none'}
+        {hlgroup = 'User1', ctermfg = c.base08, ctermbg = c.base02, cterm = 'none'},
+        {hlgroup = 'User2', ctermfg = c.base0E, ctermbg = c.base02, cterm = 'none'},
+        {hlgroup = 'User3', ctermfg = c.base05, ctermbg = c.base02, cterm = 'none'},
+        {hlgroup = 'User4', ctermfg = c.base0C, ctermbg = c.base02, cterm = 'none'},
+        {hlgroup = 'User5', ctermfg = c.base01, ctermbg = c.base02, cterm = 'none'},
+        {hlgroup = 'User6', ctermfg = c.base05, ctermbg = c.base02, cterm = 'none'},
+        {hlgroup = 'User7', ctermfg = c.base05, ctermbg = c.base02, cterm = 'none'},
+        {hlgroup = 'User8', ctermfg = c.base00, ctermbg = c.base02, cterm = 'none'},
+        {hlgroup = 'User9', ctermfg = c.base00, ctermbg = c.base02, cterm = 'none'}
         -- LuaFormatter on
     }
 end

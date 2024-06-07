@@ -2,21 +2,21 @@
 local make = function(c)
     return {
         -- LuaFormatter off
-        {hlgroup = 'gitcommitOverflow', guifg = c.base08, guibg = nil, gui = nil},
-        {hlgroup = 'gitcommitSummary', guifg = c.base0B, guibg = nil, gui = nil},
-        {hlgroup = 'gitcommitComment', guifg = c.base03, guibg = nil, gui = nil},
-        {hlgroup = 'gitcommitUntracked', guifg = c.base03, guibg = nil, gui = nil},
-        {hlgroup = 'gitcommitDiscarded', guifg = c.base03, guibg = nil, gui = nil},
-        {hlgroup = 'gitcommitSelected', guifg = c.base03, guibg = nil, gui = nil},
-        {hlgroup = 'gitcommitHeader', guifg = c.base0E, guibg = nil, gui = nil},
-        {hlgroup = 'gitcommitSelectedType', guifg = c.base0D, guibg = nil, gui = nil},
-        {hlgroup = 'gitcommitUnmergedType', guifg = c.base0D, guibg = nil, gui = nil},
-        {hlgroup = 'gitcommitDiscardedType', guifg = c.base0D, guibg = nil, gui = nil},
-        {hlgroup = 'gitcommitBranch', guifg = c.base09, guibg = nil, gui = 'bold'},
-        {hlgroup = 'gitcommitUntrackedFile', guifg = c.base0A, guibg = nil, gui = nil},
-        {hlgroup = 'gitcommitUnmergedFile', guifg = c.base08, guibg = nil, gui = 'bold'},
-        {hlgroup = 'gitcommitDiscardedFile', guifg = c.base08, guibg = nil, gui = 'bold'},
-        {hlgroup = 'gitcommitSelectedFile', guifg = c.base0B, guibg = nil, gui = 'bold'}
+        {hlgroup = 'gitcommitOverflow', ctermfg = c.base08, ctermbg = nil, cterm = nil},
+        {hlgroup = 'gitcommitSummary', ctermfg = c.base0B, ctermbg = nil, cterm = nil},
+        {hlgroup = 'gitcommitComment', ctermfg = c.base03, ctermbg = nil, cterm = nil},
+        {hlgroup = 'gitcommitUntracked', ctermfg = c.base03, ctermbg = nil, cterm = nil},
+        {hlgroup = 'gitcommitDiscarded', ctermfg = c.base03, ctermbg = nil, cterm = nil},
+        {hlgroup = 'gitcommitSelected', ctermfg = c.base03, ctermbg = nil, cterm = nil},
+        {hlgroup = 'gitcommitHeader', ctermfg = c.base0E, ctermbg = nil, cterm = nil},
+        {hlgroup = 'gitcommitSelectedType', ctermfg = c.base0D, ctermbg = nil, cterm = nil},
+        {hlgroup = 'gitcommitUnmergedType', ctermfg = c.base0D, ctermbg = nil, cterm = nil},
+        {hlgroup = 'gitcommitDiscardedType', ctermfg = c.base0D, ctermbg = nil, cterm = nil},
+        {hlgroup = 'gitcommitBranch', ctermfg = c.base09, ctermbg = nil, cterm = 'bold'},
+        {hlgroup = 'gitcommitUntrackedFile', ctermfg = c.base0A, ctermbg = nil, cterm = nil},
+        {hlgroup = 'gitcommitUnmergedFile', ctermfg = c.base08, ctermbg = nil, cterm = 'bold'},
+        {hlgroup = 'gitcommitDiscardedFile', ctermfg = c.base08, ctermbg = nil, cterm = 'bold'},
+        {hlgroup = 'gitcommitSelectedFile', ctermfg = c.base0B, ctermbg = nil, cterm = 'bold'}
         -- LuaFormatter on
     }
 end

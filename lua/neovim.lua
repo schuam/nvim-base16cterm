@@ -2,12 +2,12 @@
 local make = function(c)
     return {
         -- LuaFormatter off
-        {hlgroup = 'NvimInternalError', guifg = c.base00, guibg = c.base08, gui = 'none'},
-        {hlgroup = 'NormalFloat', guifg = c.base05, guibg = c.base00, gui = nil},
-        {hlgroup = 'FloatBorder', guifg = c.base05, guibg = c.base00, gui = nil},
-        {hlgroup = 'NormalNC', guifg = c.base05, guibg = c.base00, gui = nil},
-        {hlgroup = 'TermCursor', guifg = c.base00, guibg = c.base05, gui = 'none'},
-        {hlgroup = 'TermCursorNC', guifg = c.base00, guibg = c.base05, gui = nil}
+        {hlgroup = 'NvimInternalError', ctermfg = c.base00, ctermbg = c.base08, cterm = 'none'},
+        {hlgroup = 'NormalFloat', ctermfg = c.base05, ctermbg = c.base00, cterm = nil},
+        {hlgroup = 'FloatBorder', ctermfg = c.base05, ctermbg = c.base00, cterm = nil},
+        {hlgroup = 'NormalNC', ctermfg = c.base05, ctermbg = c.base00, cterm = nil},
+        {hlgroup = 'TermCursor', ctermfg = c.base00, ctermbg = c.base05, cterm = 'none'},
+        {hlgroup = 'TermCursorNC', ctermfg = c.base00, ctermbg = c.base05, cterm = nil}
         -- LuaFormatter on
     }
 end

@@ -28,13 +28,13 @@ local colors = {
 -- Highlighting for indiividual groups
 local hi = function(args)
     local hlgroup = args.hlgroup
-    local guifg = args.guifg
-    local guibg = args.guibg
-    local gui = args.gui
+    local ctermfg = args.ctermfg
+    local ctermbg = args.ctermbg
+    local cterm = args.cterm
     local cmd = {'hi', hlgroup}
-    if guifg then table.insert(cmd, 'guifg=' .. guifg) end
-    if guibg then table.insert(cmd, 'guibg=' .. guibg) end
-    if gui then table.insert(cmd, 'gui=' .. gui) end
+    if ctermfg then table.insert(cmd, 'ctermfg=' .. ctermfg) end
+    if ctermbg then table.insert(cmd, 'ctermbg=' .. ctermbg) end
+    if cterm then table.insert(cmd, 'cterm=' .. cterm) end
     vim.cmd(table.concat(cmd, ' '))
 end
 

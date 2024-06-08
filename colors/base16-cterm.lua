@@ -8,9 +8,9 @@
 -- Base16 color variables
 local colors = {
     base00 = "000",
-    base01 = "018",
+    base01 = "008",
     base02 = "019",
-    base03 = "008",
+    base03 = "018",
     base04 = "020",
     base05 = "007",
     base06 = "021",

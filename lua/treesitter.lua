@@ -153,6 +153,8 @@ local make = function(c)
         ["@text.strike"] = { link = "Strikethrough" },
         ["@text.title"] = { link = "Title" },
         ["@text.literal"] = { link = "String" },
+        ["@text.literal.block.markdown"] = { link = "markdownCodeBlock" },
+        ["@text.literal.markdown_inline"] = { link = "markdownCodeBlock" },
         ["@text.uri"] = { link = "Underlined" },
         ["@text.math"] = { link = "Special" },
         ["@text.environment"] = { link = "Macro" },

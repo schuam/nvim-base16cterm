@@ -85,6 +85,7 @@ local makeSpellCollection = require('spell')
 local makeNeovimCollection = require('neovim')
 local makeUserCollection = require('user')
 local makeLspCollection = require('lsp')
+local makeMarkdownCollection = require('markdown')
 local makeTreesitterCollection = require('treesitter')
 setup({
     vim = makeVimCollection(colors),
@@ -95,5 +96,6 @@ setup({
     neovim = makeNeovimCollection(colors),
     user = makeUserCollection(colors),
     lsp = makeLspCollection(colors),
-    treesitter = makeTreesitterCollection(colors)
+    markdown = makeMarkdownCollection(colors),
+    treesitter = makeTreesitterCollection(colors),
 })

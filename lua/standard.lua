@@ -10,7 +10,7 @@ local make = function(c)
         {hlgroup = 'Delimiter', ctermfg = c.base0F, ctermbg = nil, cterm = nil},
         {hlgroup = 'Float', ctermfg = c.base09, ctermbg = nil, cterm = nil},
         {hlgroup = 'Function', ctermfg = c.base0D, ctermbg = nil, cterm = nil},
-        {hlgroup = 'Identifier', ctermfg = c.base08, ctermbg = nil, cterm = 'none'},
+        {hlgroup = 'Identifier', ctermfg = c.base0F, ctermbg = nil, cterm = 'none'},
         {hlgroup = 'Include', ctermfg = c.base0D, ctermbg = nil, cterm = nil},
         {hlgroup = 'Keyword', ctermfg = c.base0E, ctermbg = nil, cterm = nil},
         {hlgroup = 'Label', ctermfg = c.base0A, ctermbg = nil, cterm = nil},

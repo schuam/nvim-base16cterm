@@ -13,7 +13,7 @@ local make = function(c)
         {hlgroup = 'Folded', ctermfg = c.base03, ctermbg = c.base01, cterm = nil},
         {hlgroup = 'IncSearch', ctermfg = c.base01, ctermbg = c.base09, cterm = 'none'},
         {hlgroup = 'Italic', ctermfg = nil, ctermbg = nil, cterm = 'none'},
-        {hlgroup = 'Macro', ctermfg = c.base08, ctermbg = nil, cterm = nil},
+        {hlgroup = 'Macro', ctermfg = c.base0C, ctermbg = nil, cterm = nil},
         {hlgroup = 'MatchParen', ctermfg = nil, ctermbg = c.base03, cterm = nil},
         {hlgroup = 'ModeMsg', ctermfg = c.base0B, ctermbg = nil, cterm = nil},
         {hlgroup = 'MoreMsg', ctermfg = c.base0B, ctermbg = nil, cterm = nil},

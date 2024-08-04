@@ -47,7 +47,14 @@ local setup = function(collections)
 
     -- Loop through highlighting collections
     for _, collection in pairs(collections) do
-        for _, group in ipairs(collection) do hi(group) end
+       for _, group in ipairs(collection.hlgroups) do
+            hi(group)
+       end
+    end
+    for _, collection in pairs(collections) do
+       for group, settings in pairs(collection.hlgroup_links) do
+          vim.api.nvim_set_hl(0, group, settings)
+       end
     end
 
     -- Built-in terminal

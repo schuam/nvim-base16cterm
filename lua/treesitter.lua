@@ -1,7 +1,6 @@
 -- Make treesitter highlight groups
 local make = function(c)
-    return {
-        -- LuaFormatter off
+    local hlgroups = {
         {hlgroup = 'TSAnnotation', ctermfg = c.base0F, ctermbg = nil, cterm = 'none'},
         {hlgroup = 'TSAttribute', ctermfg = c.base0A, ctermbg = nil, cterm = 'none'},
         {hlgroup = 'TSBoolean', ctermfg = c.base09, ctermbg = nil, cterm = 'none'},
@@ -54,8 +53,11 @@ local make = function(c)
         {hlgroup = 'TSTypeBuiltin', ctermfg = c.base09, ctermbg = nil, cterm = 'none'},
         {hlgroup = 'TSVariable', ctermfg = c.base05, ctermbg = nil, cterm = 'none'},
         {hlgroup = 'TSVariableBuiltin', ctermfg = c.base09, ctermbg = nil, cterm = 'none'}
-        -- LuaFormatter on
     }
+    local hlgroup_links = {
+    }
+
+    return {hlgroups = hlgroups, hlgroup_links = hlgroup_links}
 end
 
 return make

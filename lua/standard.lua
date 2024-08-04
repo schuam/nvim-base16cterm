@@ -1,7 +1,6 @@
 -- Make standard syntax highlight groups
 local make = function(c)
-    return {
-        -- LuaFormatter off
+    local hlgroups = {
         {hlgroup = 'Boolean', ctermfg = c.base09, ctermbg = nil, cterm = nil},
         {hlgroup = 'Character', ctermfg = c.base08, ctermbg = nil, cterm = nil},
         {hlgroup = 'Comment', ctermfg = c.base03, ctermbg = nil, cterm = nil},
@@ -29,8 +28,11 @@ local make = function(c)
         {hlgroup = 'Todo', ctermfg = c.base0A, ctermbg = c.base01, cterm = nil},
         {hlgroup = 'Type', ctermfg = c.base0A, ctermbg = nil, cterm = 'none'},
         {hlgroup = 'Typedef', ctermfg = c.base0A, ctermbg = nil, cterm = nil}
-        -- LuaFormatter on
     }
+    local hlgroup_links = {
+    }
+
+    return {hlgroups = hlgroups, hlgroup_links = hlgroup_links}
 end
 
 return make

@@ -1,7 +1,6 @@
 -- Make native LSP highlight groups
 local make = function(c)
-    return {
-        -- LuaFormatter off
+    local hlgroups = {
         {hlgroup = 'LspReferenceText', ctermfg = nil, ctermbg = nil, cterm = 'underline', ctermsp = c.base04},
         {hlgroup = 'LspReferenceRead', ctermfg = nil, ctermbg = nil, cterm = 'underline', ctermsp = c.base04},
         {hlgroup = 'LspReferenceWrite', ctermfg = nil, ctermbg = nil, cterm = 'underline', ctermsp = c.base04},
@@ -13,8 +12,11 @@ local make = function(c)
         {hlgroup = 'LspDiagnosticsUnderlineWarning', ctermfg = nil, ctermbg = nil, cterm = 'undercurl', ctermsp = c.base0A},
         {hlgroup = 'LspDiagnosticsUnderlineInformation', ctermfg = nil, ctermbg = nil, cterm = 'undercurl', ctermsp = c.base0D},
         {hlgroup = 'LspDiagnosticsUnderlineHint', ctermfg = nil, ctermbg = nil, cterm = 'undercurl', ctermsp = c.base05}
-        -- LuaFormatter on
     }
+    local hlgroup_links = {
+    }
+
+    return {hlgroups = hlgroups, hlgroup_links = hlgroup_links}
 end
 
 return make

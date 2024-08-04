@@ -1,7 +1,6 @@
 -- Make diff highlight groups
 local make = function(c)
-    return {
-        -- LuaFormatter off
+    local hlgroups = {
         {hlgroup = 'DiffAdd', ctermfg = c.base0B, ctermbg = c.base01, cterm = nil},
         {hlgroup = 'DiffChange', ctermfg = c.base03, ctermbg = c.base01, cterm = nil},
         {hlgroup = 'DiffDelete', ctermfg = c.base08, ctermbg = c.base01, cterm = nil},
@@ -11,8 +10,11 @@ local make = function(c)
         {hlgroup = 'DiffNewFile', ctermfg = c.base0B, ctermbg = c.base00, cterm = nil},
         {hlgroup = 'DiffLine', ctermfg = c.base0D, ctermbg = c.base00, cterm = nil},
         {hlgroup = 'DiffRemoved', ctermfg = c.base08, ctermbg = c.base00, cterm = nil}
-        -- LuaFormatter on
     }
+    local hlgroup_links = {
+    }
+
+    return {hlgroups = hlgroups, hlgroup_links = hlgroup_links}
 end
 
 return make

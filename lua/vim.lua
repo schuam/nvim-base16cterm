@@ -1,7 +1,6 @@
 -- Make vim editor highlight groups
 local make = function(c)
-    return {
-        -- LuaFormatter off
+    local hlgroups = {
         {hlgroup = 'Normal', ctermfg = c.base05, ctermbg = c.base00, cterm = nil},
         {hlgroup = 'Bold', ctermfg = nil, ctermbg = nil, cterm = 'bold'},
         {hlgroup = 'Debug', ctermfg = c.base08, ctermbg = nil, cterm = nil},
@@ -45,9 +44,12 @@ local make = function(c)
         {hlgroup = 'PMenuSel', ctermfg = c.base01, ctermbg = c.base05, cterm = nil},
         {hlgroup = 'TabLine', ctermfg = c.base03, ctermbg = c.base01, cterm = 'none'},
         {hlgroup = 'TabLineFill', ctermfg = c.base03, ctermbg = c.base01, cterm = 'none'},
-        {hlgroup = 'TabLineSel', ctermfg = c.base0B, ctermbg = c.base01, cterm = 'none'}
-        -- LuaFormatter on
+        {hlgroup = 'TabLineSel', ctermfg = c.base0B, ctermbg = c.base01, cterm = 'none'},
     }
+    local hlgroup_links = {
+    }
+
+    return {hlgroups = hlgroups, hlgroup_links = hlgroup_links}
 end
 
 return make

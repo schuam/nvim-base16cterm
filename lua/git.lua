@@ -1,7 +1,6 @@
 -- Make git highlight groups
 local make = function(c)
-    return {
-        -- LuaFormatter off
+    local hlgroups = {
         {hlgroup = 'gitcommitOverflow', ctermfg = c.base08, ctermbg = nil, cterm = nil},
         {hlgroup = 'gitcommitSummary', ctermfg = c.base0B, ctermbg = nil, cterm = nil},
         {hlgroup = 'gitcommitComment', ctermfg = c.base03, ctermbg = nil, cterm = nil},
@@ -17,8 +16,11 @@ local make = function(c)
         {hlgroup = 'gitcommitUnmergedFile', ctermfg = c.base08, ctermbg = nil, cterm = 'bold'},
         {hlgroup = 'gitcommitDiscardedFile', ctermfg = c.base08, ctermbg = nil, cterm = 'bold'},
         {hlgroup = 'gitcommitSelectedFile', ctermfg = c.base0B, ctermbg = nil, cterm = 'bold'}
-        -- LuaFormatter on
     }
+    local hlgroup_links = {
+    }
+
+    return {hlgroups = hlgroups, hlgroup_links = hlgroup_links}
 end
 
 return make

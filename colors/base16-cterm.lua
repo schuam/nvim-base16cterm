@@ -22,7 +22,7 @@ local colors = {
     base0C = "006",
     base0D = "004",
     base0E = "005",
-    base0F = "007"
+    base0F = "017"
 }
 
 -- Highlighting for indiividual groups

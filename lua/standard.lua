@@ -27,7 +27,12 @@ local make = function(c)
         {hlgroup = 'Tag', ctermfg = c.base0A, ctermbg = nil, cterm = nil},
         {hlgroup = 'Todo', ctermfg = c.base0A, ctermbg = c.base01, cterm = nil},
         {hlgroup = 'Type', ctermfg = c.base0A, ctermbg = nil, cterm = 'none'},
-        {hlgroup = 'Typedef', ctermfg = c.base0A, ctermbg = nil, cterm = nil}
+        {hlgroup = 'Typedef', ctermfg = c.base0A, ctermbg = nil, cterm = nil},
+        {hlgroup = 'Variable', ctermfg = c.base08, ctermbg = nil, cterm = 'none'},
+        {hlgroup = 'ListChecked', ctermfg = c.base0B, ctermbg = nil, cterm = 'none'},
+        {hlgroup = 'ListUnchecked', ctermfg = c.base08, ctermbg = nil, cterm = 'none'},
+        {hlgroup = 'ListMarker', ctermfg = c.base08, ctermbg = nil, cterm = 'none'},
+        {hlgroup = 'Markup', ctermfg = c.base04, ctermbg = nil, cterm = 'none'},
     }
     local hlgroup_links = {
     }

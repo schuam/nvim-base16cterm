@@ -1,6 +1,8 @@
+-- schuam/nvim-base16cterm (https://github.com/schuam/nvim-base16cterm)
+-- by Andreas Schuster (https://github.com/schuam)
+-- Based on existing work with references below
 -- bradcush/base16-nvim (https://github.com/bradcush/base16-nvim)
 -- by Bradley Cushing (https://github.com/bradcush)
--- Based on existing work with references below
 -- base16-vim (https://github.com/chriskempson/base16-vim)
 -- by Chris Kempson (http://chriskempson.com)
 -- RRethy/nvim-base16 (https://github.com/RRethy/nvim-base16)
